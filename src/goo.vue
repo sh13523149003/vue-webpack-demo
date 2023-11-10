@@ -1,14 +1,11 @@
 <template>
   <div class="App">
-  {{msg}}
-   <iframe :src="'/foo'"></iframe>
-  <goo/>
+  this is goo
   </div>
 </template>
 
 <script>
 import Chart from './chart';
-import goo from './goo.vue';
 console.log(Chart.age);
 export default {
   name: 'foo',
@@ -16,12 +13,6 @@ export default {
     return {
         msg: "this is bar page",
     };
-  },
-  components: {
-    goo: goo
-  },
-  created() {
-    debugger
   }
 };
 </script>

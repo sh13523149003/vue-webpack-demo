@@ -6,7 +6,6 @@
 
 <script>
 import Chart from './chart';
-debugger
 Chart.age = '20';
 export default {
   name: 'foo',
